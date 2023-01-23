@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-128.5" y="-55.5">Menus.MenuGestionSecciones</node>
+    <node x="156.0" y="30.0">Menus.FachadaMenus</node>
+    <node x="132.5" y="230.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Menus.FachadaMenus" target="Menus.MenuGestionSecciones" relationship="TO_ONE">
+      <point x="-0.0" y="-56.0" />
+      <point x="261.0" y="-24.0" />
+      <point x="116.5" y="-0.0" />
+    </edge>
+    <edge source="Menus.FachadaMenus" target="Menus.MenuGestionSecciones" relationship="CREATE">
+      <point x="-105.0" y="-0.0" />
+      <point x="-12.0" y="86.0" />
+      <point x="-0.0" y="31.5" />
+    </edge>
+    <edge source="Main" target="Menus.FachadaMenus" relationship="CREATE">
+      <point x="0.0" y="-56.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="true" x="10.0" y="188.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
